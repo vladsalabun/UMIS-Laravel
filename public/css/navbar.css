@@ -1,0 +1,16 @@
+.navbar,.navbar-menu {
+    background: none !important;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+.navbar a {
+    color: #fff;
+    background: none !important;
+    border-bottom: none !important;
+}
+.navbar a:hover {
+    color: #fff;
+    background: none !important;
+    text-shadow: 0px 0px 9px #fff;
+    
+}

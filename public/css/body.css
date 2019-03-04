@@ -1,0 +1,84 @@
+html {
+    background: none !important;
+}
+body {
+    background-color: #f5f5e9;
+    background: url(https://vocabulary.yy/img/grislogin_clear.jpg) no-repeat; /* Добавляем фон */
+
+    color: #fff;
+    background-color: #000 !important;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background-attachment: fixed;
+}
+
+
+@media screen and (max-width:960px){
+    body {
+        background: url(https://vocabulary.yy/img/grislogin_clear_square.jpg) no-repeat;
+        background-attachment: fixed;
+    }
+}
+@media screen and (max-width:375px){
+    body {
+        background: url(https://vocabulary.yy/img/grislogin_clear_square_375x667.jpg) no-repeat;
+        background-attachment: fixed;
+    }
+}
+/*960, 1152 and 1344*/
+
+
+
+::selection {
+    color: #fff;
+    background: rgb(255,255,255,0.3);
+}
+
+a {
+    color: #fff !important;
+    border-bottom: 1px solid #fff;
+}
+a:hover {
+    color: #fff !important;
+    text-shadow: 0px 0px 9px #fff;
+}
+
+h2 {
+
+}
+
+input, textarea, select {
+    font: none !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 16px !important;
+    background: none !important;
+    color: #fff;
+    border: none !important;
+}
+button {
+    font: none !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 16px !important;
+    color: #fff;
+    border: none !important;
+    border-bottom: 1px dotted #fff;
+    cursor: pointer;
+}
+
+
+.input {
+    color: #fff;
+    box-shadow: 0 0 0px rgba(255,255,255,0.5);
+    background: rgb(255,255,255,0.07) !important;
+    border-radius: 15px;
+
+}
+.input:focus {
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+
+}
+::placeholder {
+  color: rgb(255,255,255,0.5) !important;
+}
