@@ -3,7 +3,7 @@ html {
 }
 body {
     background-color: #f5f5e9;
-    background: url(https://vocabulary.yy/img/grislogin_clear.jpg) no-repeat; /* Добавляем фон */
+    background: url(http://umis.salabun.com/img/grislogin_clear.jpg) no-repeat; /* Добавляем фон */
 
     color: #fff;
     background-color: #000 !important;
@@ -16,13 +16,13 @@ body {
 
 @media screen and (max-width:960px){
     body {
-        background: url(https://vocabulary.yy/img/grislogin_clear_square.jpg) no-repeat;
+        background: url(http://umis.salabun.com/img/grislogin_clear_square.jpg) no-repeat;
         background-attachment: fixed;
     }
 }
 @media screen and (max-width:375px){
     body {
-        background: url(https://vocabulary.yy/img/grislogin_clear_square_375x667.jpg) no-repeat;
+        background: url(http://umis.salabun.com/img/grislogin_clear_square_375x667.jpg) no-repeat;
         background-attachment: fixed;
     }
 }
