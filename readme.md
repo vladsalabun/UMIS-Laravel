@@ -8,11 +8,14 @@
 
 Серед них 40494 рідковживаних, та 9049 сленгових.
 
+Алгоритм програми вміє підбирати випадкові епітети до слів. Наприклад, можна отримати прикметники для слова: ["програміст"](http://umis.salabun.com/word/3626819)
+
+
 Посилання на проект: [http://umis.salabun.com/](http://umis.salabun.com/)
 
 ![Screenshot](umis1.png)
 
-![Screenshot](umis2.png)
+![Screenshot](umis33.png)
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
