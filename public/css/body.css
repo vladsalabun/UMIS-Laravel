@@ -3,30 +3,14 @@ html {
 }
 body {
     background-color: #f5f5e9;
-    background: url(http://umis.salabun.com/img/grislogin_clear.jpg) no-repeat; /* Добавляем фон */
-
-    color: #fff;
     background-color: #000 !important;
+    background: url(http://umis.salabun.com/img/grislogin_clear.jpg) no-repeat; /* Добавляем фон */
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 18px;
     background-attachment: fixed;
 }
-
-
-@media screen and (max-width:960px){
-    body {
-        background: url(http://umis.salabun.com/img/grislogin_clear_square.jpg) no-repeat;
-        background-attachment: fixed;
-    }
-}
-@media screen and (max-width:375px){
-    body {
-        background: url(http://umis.salabun.com/img/grislogin_clear_square_375x667.jpg) no-repeat;
-        background-attachment: fixed;
-    }
-}
-/*960, 1152 and 1344*/
 
 
 
@@ -82,3 +66,30 @@ button {
 ::placeholder {
   color: rgb(255,255,255,0.5) !important;
 }
+
+@media screen and (max-width:960px){
+    body {
+        background: url(http://umis.salabun.com/img/grislogin_clear_square.jpg) no-repeat;
+        background-attachment: fixed;
+    }
+    .title {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:375px){
+    body {
+        background: url(http://umis.salabun.com/img/grislogin_clear_square_375x667.jpg) no-repeat;
+        background-attachment: fixed;
+    }
+    .input {
+        border: 1px solid #fff !important;
+        box-shadow: none !important;
+    }
+    .input:focus {
+        color: #fff;
+        border: 2px solid #fff !important; 
+        box-shadow: none !important;
+
+    }
+}
+/*960, 1152 and 1344*/
